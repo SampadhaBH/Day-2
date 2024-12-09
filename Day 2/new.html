@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Styles Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* CSS Styles */
+        body {
+            background-color: #f0f0f0; /* Light background for contrast */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        .border-container {
+            width: 300px; /* Set a width for the border containers */
+            margin: 10px; /* Margin between divs */
+            padding: 20px; /* Padding inside the divs */
+            text-align: center; /* Center align text */
+            font-size: 18px; /* Font size */
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        .dotted {
+            border: 3px dotted #3498db; /* Dotted border */
+        }
+
+        .dashed {
+            border: 3px dashed #e74c3c; /* Dashed border */
+        }
+
+        .solid {
+            border: 3px solid #2ecc71; /* Solid border */
+        }
+
+        .double {
+            border: 5px double #9b59b6; /* Double border */
+        }
+
+        .groove {
+            border: 5px groove #34495e; /* Grooved border */
+        }
+
+        .inset {
+            border: 5px inset #f39c12; /* Inset border */
+        }
+
+        .outset {
+            border: 5px outset #e67e22; /* Outset border */
+        }
+    </style>
+</head>
+<body>
+    <div class="border-container dotted">Dotted Border</div>
+    <div class="border-container dashed">Dashed Border</div>
+    <div class="border-container solid">Solid Border</div>
+    <div class="border-container double">Double Border</div>
+    <div class="border-container groove">Groove Border</div>
+    <div class="border-container inset">Inset Border</div>
+    <div class="border-container outset">Outset Border</div>
+</body>
+</html>
+
+

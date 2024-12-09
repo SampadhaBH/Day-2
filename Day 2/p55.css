@@ -1,0 +1,14 @@
+<!DOCTYPE css>
+<css lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Paragraph</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <p class="styled-paragraph">
+        This is an example of a styled paragraph with flowing text color and various CSS properties applied.
+    </p>
+</body>
+</html>

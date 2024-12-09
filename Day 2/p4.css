@@ -1,0 +1,15 @@
+/* Element Selector */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Class Selector */
+.blue-text {
+    color: blue; /* Change text color to blue */
+}
+
+/* ID Selector */
+#red-text {
+    color: red; /* Change text color to red */
+}

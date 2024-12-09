@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Example</title>
+    <style>
+        /* Element Selector */
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        /* Class Selector */
+        .blue-text {
+            color: blue; /* Change text color to blue */
+        }
+
+        /* ID Selector */
+        #red-text {
+            color: rgba(1, 31, 12, 0.603); /* Change text color to red */
+        }
+
+        /* Additional Class Selector */
+        .green-text {
+            color: green; /* Change text color to green */
+        }
+    </style>
+</head>
+<body>
+
+<h2>Text Color Example</h2>
+
+<p class="blue-text">This is the first paragraph with blue text using a class selector.</p>
+<p id="red-text">This is the second paragraph with red text using an ID selector.</p>
+<p class="green-text">This is the third paragraph with green text using a class selector.</p>
+
+</body>
+</html>
